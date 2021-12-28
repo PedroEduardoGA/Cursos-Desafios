@@ -1,0 +1,40 @@
+header{
+    background-color: #232323;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+header section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    max-width: 90px;
+    border-radius: 50%;
+    border: solid 3px rgb(255, 255, 255); 
+    margin-right: 30px;
+    max-height: 90px;
+    
+}
+
+.brand div{
+    font-size: 32px;
+    justify-content: center;
+    font-family: "Roboto Condesed" , sans-serif;
+    font-weight: 700;
+}
+
+.brand span{
+    display: block;
+    font-size: 16px;
+    color: #939393;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 400;
+}

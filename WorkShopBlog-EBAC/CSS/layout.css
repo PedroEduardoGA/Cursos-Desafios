@@ -1,0 +1,52 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+section{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+body{
+    background-color: #141414;
+    color: #fff;
+    margin: 0px;
+    
+    font-family: "Roboto" , sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+    font-family: "Roboto Condesed" , sans-serif;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    line-height: 32px;
+    color: gainsboro;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+pre{
+    background-color: #2d2d2d;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+main{
+    display: flex;
+}
